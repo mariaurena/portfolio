@@ -19,8 +19,8 @@ const AboutPage = () => {
           sx={{
             display: 'flex',
             flexDirection: 'column',
-            paddingLeft: '45px',
-            paddingRight: '45px',
+            paddingLeft: '10px',
+            paddingRight: '10px',
             gap: '45px',
             height: 'auto',
             alignItems: 'center',
