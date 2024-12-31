@@ -231,7 +231,7 @@ const Appbar = ({ isMagazinePage, checked, setChecked, textColor }) => {
                 position: 'absolute',
                 left: '50%',
                 transform: 'translateX(-50%)',
-                marginTop: { xs: '130px', sm: '30px' },
+                marginTop: { xs: '130px', sm: '100px' },
                 marginBottom: { xs: '30px' },
               }}
             >
