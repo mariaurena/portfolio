@@ -1,4 +1,6 @@
 import { Container } from '@mui/material'
+import { useLocation } from 'react-router-dom'
+
 import Appbar from '../components/Appbar'
 import Footer from '../components/Footer'
 
@@ -12,8 +14,8 @@ const BaseLayout = ({
   setChecked,
   customChildrenStyles,
 }) => {
-  const isMagazinePage =
-    children._source.fileName === '../pages/MagazinePage.jsx'
+  const location = useLocation()
+  const isMagazinePage = location.pathname === '/galeria'
 
   return (
     <Container

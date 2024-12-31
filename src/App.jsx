@@ -1,13 +1,13 @@
-import React, { Suspense, lazy } from 'react'
+import React, { Suspense } from 'react'
 import { Routes, Route, Navigate } from 'react-router-dom'
 import { Skeleton } from '@mui/material'
 import './App.css'
 
-const HomePage = lazy(() => import('./pages/HomePage'))
-const MagazinePage = lazy(() => import('./pages/MagazinePage'))
-const AboutPage = lazy(() => import('./pages/AboutPage'))
-const CVPage = lazy(() => import('./pages/CVPage'))
-const MoodboardPage = lazy(() => import('./pages/MoodboardPage'))
+import HomePage from './pages/HomePage'
+import MagazinePage from './pages/MagazinePage'
+import AboutPage from './pages/AboutPage'
+import CVPage from './pages/CVPage'
+import MoodboardPage from './pages/MoodboardPage'
 
 function App() {
   return (
