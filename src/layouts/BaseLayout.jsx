@@ -13,8 +13,7 @@ const BaseLayout = ({
   customChildrenStyles,
 }) => {
   const isMagazinePage =
-    children._source.fileName ===
-    '/home/murena/Escritorio/Portfolio/mi-portfolio/src/pages/MagazinePage.jsx'
+    children._source.fileName === '../pages/MagazinePage.jsx'
 
   return (
     <Container
