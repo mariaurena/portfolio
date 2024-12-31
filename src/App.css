@@ -1,0 +1,54 @@
+/* Cargar las fuentes Moche */
+@font-face {
+  font-family: 'Apercu';
+  src: url('./fonts/ApercuMonoProRegular.ttf') format('truetype');
+  font-weight: 400; /* Regular weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Apercu';
+  src: url('./fonts/ApercuMonoProBold.ttf') format('truetype');
+  font-weight: 700; /* Bold weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Apercu';
+  src: url('./fonts/ApercuMonoProLight.ttf') format('truetype');
+  font-weight: 300; /* Light weight */
+  font-style: normal;
+}
+
+/* Aplicar la fuente Moche en el body */
+body {
+  font-family: 'Apercu', serif;
+  background-color: #333333;
+  font-weight: 400; /* Regular weight */
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.no-select {
+  user-select: none; /* Para la mayoría de los navegadores */
+  -webkit-user-select: none; /* Para navegadores basados en WebKit como Safari */
+  -moz-user-select: none; /* Para Firefox */
+  -ms-user-select: none; /* Para Internet Explorer/Edge */
+}
