@@ -56,7 +56,7 @@ const AboutPage = () => {
           <img
             src="https://res.cloudinary.com/dr5yhn480/image/upload/v1729622753/portfolio/sobre-mi/lrcgwvhc0rcurxxk2r5b.png"
             loading="lazy"
-            style={{ width: '400px', margin: '0', height: 'auto' }}
+            style={{ width: '100%', margin: '0', height: 'auto' }}
           />
 
           <Typography
