@@ -170,7 +170,7 @@ const Appbar = ({ isMagazinePage, checked, setChecked, textColor }) => {
                               color: 'white',
                               padding: '30px',
                               width: '60%',
-                              fontFamily: 'Moche',
+                              fontFamily: 'Oxanium',
                               fontWeight: 'bold',
                             }}
                           >
