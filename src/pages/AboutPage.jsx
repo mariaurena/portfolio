@@ -56,7 +56,7 @@ const AboutPage = () => {
           <img
             src="https://res.cloudinary.com/dr5yhn480/image/upload/v1729622753/portfolio/sobre-mi/lrcgwvhc0rcurxxk2r5b.png"
             loading="lazy"
-            style={{ width: '400px', margin: '0' }}
+            style={{ width: '400px', margin: '0', height: 'auto' }}
           />
 
           <Typography
@@ -139,7 +139,7 @@ const AboutPage = () => {
               <img
                 src="https://res.cloudinary.com/dr5yhn480/image/upload/v1729532615/IMG_8076_Original_wqabm5.jpg"
                 loading="lazy"
-                style={{ width: '600px', margin: '0' }}
+                style={{ width: '600px', margin: '0', height: 'auto' }}
               />
               <Typography
                 sx={{
@@ -191,12 +191,12 @@ const AboutPage = () => {
                 <img
                   src="https://res.cloudinary.com/dr5yhn480/image/upload/v1729532613/IMG_4755_Original_kdiane.jpg"
                   loading="lazy"
-                  style={{ width: '250px', margin: '0' }}
+                  style={{ width: '250px', margin: '0', height: 'auto' }}
                 />
                 <img
                   src="https://res.cloudinary.com/dr5yhn480/image/upload/v1729532613/IMG_4756_Original_aalwpw.jpg"
                   loading="lazy"
-                  style={{ width: '250px', margin: '0' }}
+                  style={{ width: '250px', margin: '0', height: 'auto' }}
                 />
               </Box>
             </Box>
@@ -217,6 +217,7 @@ const AboutPage = () => {
                 width: '400px',
                 right: '45px',
                 margin: '0',
+                height: 'auto',
               }}
             />
             <Typography
@@ -242,6 +243,7 @@ const AboutPage = () => {
                 right: '45px',
                 margin: '0',
                 paddingTop: '32px',
+                height: 'auto',
               }}
             />
           </Box>
